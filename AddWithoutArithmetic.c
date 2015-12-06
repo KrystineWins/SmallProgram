@@ -5,10 +5,10 @@ int AddWithoutArithmetic(int num1, int num2);
 
 void main(){
     int a,b,result;
-    printf("please input two number:\n");
+    printf("please input two numbers:\n");
 	scanf("%d%d",&a,&b);
 	result = AddWithoutArithmetic(a,b);
-	printf("The result %d add %d is %d\n",a,b,result);
+	printf("The result %d plus %d is %d\n",a,b,result);
 }
 int AddWithoutArithmetic(int num1, int num2)
 {
