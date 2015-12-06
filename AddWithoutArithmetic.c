@@ -8,7 +8,7 @@ void main(){
     printf("please input two numbers:\n");
 	scanf("%d%d",&a,&b);
 	result = AddWithoutArithmetic(a,b);
-	printf("The result %d plus %d is %d\n",a,b,result);
+	printf("The result of %d plus %d is %d\n",a,b,result);
 }
 int AddWithoutArithmetic(int num1, int num2)
 {
